@@ -1,0 +1,36 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+
+/* Container using Flexbox */
+.container {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+/* Columns */
+.column {
+    flex: 1;
+    padding: 20px;
+    background-color: #3498db;
+    color: white;
+    border-radius: 10px;
+}
+
+/* Different background for clarity */
+.column-right {
+    background-color: #2ecc71;
+}
+
+/* Responsive: single column on small screens */
+@media (max-width: 768px) {
+    .container {
+        flex-direction: column;
+    }
+
+    .column {
+        width: 100%;
+    }
+}

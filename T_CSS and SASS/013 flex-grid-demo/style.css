@@ -1,0 +1,42 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+
+/* Flexbox Example */
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #f0f0f0;
+    padding: 20px;
+    margin-bottom: 40px;
+}
+
+.flex-item {
+    background-color: #3498db;
+    color: white;
+    padding: 30px;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 20px;
+}
+
+/* Grid Example */
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 100px 100px;
+    gap: 10px;
+}
+
+.grid-item {
+    background-color: #2ecc71;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    border-radius: 5px;
+}

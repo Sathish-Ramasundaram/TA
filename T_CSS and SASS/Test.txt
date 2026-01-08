@@ -1,0 +1,18 @@
+Chapter 2: CSS & SASS
+Selectors and cascading
+Box model and layout
+Display and visibility properties
+Positioning and z-index
+Floating and clearing elements
+Text and font properties
+Backgrounds and borders
+Transitions and animations
+Media queries for responsive design
+CSS Grid and Flexbox for layout
+CSS preprocessors (SASS, LESS, etc.)
+
+Chapter 3: Tailwind
+
+Study plan
+https://copilot.microsoft.com/shares/pages/KsWxeVCM6GGWW84urzqvg
+

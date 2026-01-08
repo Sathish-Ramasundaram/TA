@@ -1,0 +1,41 @@
+/* Universal Selector */
+* {
+    font-family: Arial, sans-serif;
+}
+
+/* Element Selector */
+p {
+    color: blue;
+}
+
+/* Class Selector */
+.text {
+    color: green;
+}
+
+/* Multiple Class Selector */
+.highlight {
+    background-color: yellow;
+}
+
+/* ID Selector */
+#unique {
+    color: red;
+}
+
+/* Parent Inheritance */
+.container {
+    color: brown;
+    border: 2px solid black;
+    padding: 10px;
+}
+
+/* ID selector overrides element & class */
+#title {
+    color: darkorange;
+}
+
+/* !important overrides everything */
+.text {
+    color: green !important;
+}

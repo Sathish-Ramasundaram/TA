@@ -1,0 +1,36 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+/* Container */
+.container {
+    border: 2px solid black;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+/* Common box styling */
+.box {
+    width: 120px;
+    height: 80px;
+    padding: 10px;
+    color: white;
+    text-align: center;
+}
+
+/* Float left */
+.left {
+    float: left;
+    background-color: blue;
+}
+
+/* Float right */
+.right {
+    float: right;
+    background-color: green;
+}
+
+/* Clear floats */
+.clear {
+    clear: both;
+}

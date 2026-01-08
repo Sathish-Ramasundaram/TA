@@ -1,0 +1,37 @@
+/* Global setting */
+* {
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* Element selector */
+div {
+    background-color: lightgray;
+    margin: 15px;
+    padding: 10px;
+    border: 2px solid black;
+}
+
+/* Class selector */
+.box {
+    background-color: lightblue;
+    padding: 20px;
+}
+
+/* Multiple class selector */
+.special {
+    border: 3px dashed green;
+}
+
+/* ID selector */
+#unique-box {
+    background-color: lightcoral;
+    margin: 30px;
+    padding: 25px;
+}
+
+/* ID selector for heading */
+#main-title {
+    text-align: center;
+    color: darkblue;
+}
